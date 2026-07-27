@@ -17,7 +17,7 @@ import type {
   User,
 } from '@/types/api'
 
-const BASE_URL = (import.meta.env.VITE_API_URL ?? 'http://localhost:8000').replace(/\/$/, '')
+const BASE_URL = (import.meta.env.VITE_API_URL ?? 'http://localhost:3000').replace(/\/$/, '')
 const TOKEN_KEY = 'fijazo_token'
 
 export class ApiError extends Error {
